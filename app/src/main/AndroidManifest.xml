@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TestMiddle"
         tools:targetApi="31">
         <activity
+            android:name=".AnimationActivity"
+            android:exported="false" />
+        <activity
             android:name=".ImageMoverActivity"
             android:exported="false" />
         <activity

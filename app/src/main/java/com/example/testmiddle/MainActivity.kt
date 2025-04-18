@@ -65,8 +65,8 @@ class MainActivity : AppCompatActivity() {
             R.id.menu1 -> {
                 startActivity(Intent(this, ImageMoverActivity::class.java))
             }
-            R.id.menu1 -> {
-
+            R.id.menu2 -> {
+                startActivity(Intent(this, AnimationActivity::class.java))
             }
             R.id.menu3 -> {
                 startActivityForResult(Intent(this,ActionActivity::class.java),100)

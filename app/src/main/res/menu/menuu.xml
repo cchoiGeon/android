@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="ImageMover" android:id="@+id/menu1"/>
+    <item android:title="애니메이션" android:id="@+id/menu2"/>
+    <item android:title="개인정보수정" android:id="@+id/menu3" android:icon="@android:drawable/ic_menu_manage" app:showAsAction="always"/>
+</menu>
